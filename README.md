@@ -1,5 +1,5 @@
-# Advancing AI-Powered Robotic Vision for Dense Crop Analysis
-**Authors**: Muhammad Owais, Muhammad Zubair, Aftab Alam, Shamal Mohammed, Lakmal Seneviratne, Irfan Hussain  
+# Synergistic Fusion of a Multilevel Visual Transformer in CNN for Variable-Length Volumetric Radiographic Data Analysis in Biomedicine
+**Authors**: Muhammad Owais, Muhammad Zubair, Taimur Hassan, Anabia Sohail, Divya Velayudhan, Naoufel Werghi, and Irfan Hussain
 
 ---
 
