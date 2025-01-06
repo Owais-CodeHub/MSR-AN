@@ -1,38 +1,87 @@
 # Synergistic Fusion of a Multilevel Visual Transformer in CNN for Variable-Length Volumetric Radiographic Data Analysis in Biomedicine
+
 **Authors**: Muhammad Owais, Muhammad Zubair, Taimur Hassan, Anabia Sohail, Divya Velayudhan, Naoufel Werghi, and Irfan Hussain
 
 ---
 
-### Overview
+## Overview
+
 ![Dense Crop Detection](Images/Model.png)  
-*Figure 1: Overview of the Dense Crop Detection Framework*  
+*Figure 1: Overview of the Synergistic Fusion Framework*
 
-This project focuses on advancing robotic vision for densely fruited crops under challenging real-world conditions. It introduces:
-- A large-scale data repository of three distinct datasets.
-- A novel synthetic data generation algorithm.
-- An optimized detection model for dense crop analysis.
+This repository showcases the implementation of a novel deep learning framework designed for variable-length volumetric radiographic data analysis in biomedicine. Key innovations include:
+- A multilevel spatio-recurrent attention network (MSR-AN).
+- Efficient integration of a lightweight vision transformer with a convolutional neural network (CNN).
+- Capability to analyze variable-length 3D inputs using single annotations.
 
-[Read the Paper](link-to-your-paper) | [View the Code](https://github.com/Owais-CodeHub/PVT-SN_SAM-RN)
+[Read the Paper](https://github.com/Owais-CodeHub/MSR-AN) | [View the Code](https://github.com/Owais-CodeHub/MSR-AN)
 
 ---
 
-### Dataset
+## Dataset
+
 ![Dataset Samples](Images/Dataset.png)  
-*Figure 2: Samples from the Datasets*  
+*Figure 2: Samples from the Volumetric Radiographic Datasets*  
 
-Explore the datasets designed for dense crop analysis:
-1. [Benchmark Dataset](link-to-dataset)
-2. [Semi-Annotated Dataset](link-to-dataset)
-3. [Synthetic Dataset](link-to-dataset)
+Explore the datasets used in our evaluation:
+1. [Dataset A - Lung CT Scans](link-to-dataset)
+2. [Dataset B - Public Radiographic Repository](link-to-dataset)
+3. [Dataset C - Composite Repository](link-to-dataset)
 
 ---
 
-### Results
-![Performance Comparison](images/results_comparison.png)  
+## Results
+
+![Performance Comparison](Images/results_comparison.png)  
 *Figure 3: Performance Comparison of Proposed Model with Baselines*  
 
-| Metric        | Proposed Model | Baseline | Improvement |
-|---------------|----------------|----------|-------------|
-| SEN (%)       | 75.06          | 60.35    | +24.71%     |
-| IoU (%)       | 56.85          | 43.35    | +13.50%     |
-| DICE (%)      | 72.49          | 63.89    | +8.60%      |
+| Metric        | MSR-AN (Proposed) | Baseline Model | Improvement |
+|---------------|--------------------|----------------|-------------|
+| Accuracy (%)  | 98.54             | 93.46          | +5.08%      |
+| F1 Score (%)  | 98.51             | 93.33          | +5.18%      |
+| Avg. Precision (%) | 98.77         | 94.12          | +4.65%      |
+| Avg. Recall (%)    | 98.25         | 92.59          | +5.66%      |
+
+---
+
+## Methodology
+
+The proposed framework integrates:
+1. **Multilevel Spatio-Attention Sub-Network (MSA-SN):**
+   - Extracts spatial features using a synergistic fusion of a lightweight vision transformer and CNN.
+   - Employs attention mechanisms for multilevel feature aggregation.
+
+2. **Recurrent Feature Alignment Sub-Network (RFA-SN):**
+   - Processes variable-length sequences using self-attention and LSTM.
+   - Captures 3D structural dependencies for volumetric analysis.
+
+3. **Two-Step Training Strategy:**
+   - Sequentially trains MSA-SN and RFA-SN using cross-entropy loss.
+   - Freezes intermediate layers to stabilize learning.
+
+For details, refer to [Methodology Section](https://github.com/Owais-CodeHub/MSR-AN).
+
+---
+
+## Applications
+
+- Computer-aided diagnosis for pulmonary diseases.
+- Analysis of volumetric radiographic data (e.g., CT, MRI).
+- Multimodal data integration for enhanced medical decision-making.
+
+---
+
+## Citation
+
+If you use this code or dataset, please cite:
+
+```bibtex
+@article{owais2024synergistic,
+  title={Synergistic Fusion of a Multilevel Visual Transformer in CNN for Variable-Length Volumetric Radiographic Data Analysis in Biomedicine},
+  author={Owais, Muhammad and Zubair, Muhammad and Hassan, Taimur and others},
+  journal={CSBJ},
+  year={2024},
+}
+```
+
+---
