@@ -77,9 +77,8 @@ If you use this code or dataset, please cite:
 
 ```bibtex
 @article{owais2024synergistic,
-  title={Synergistic Fusion of a Multilevel Visual Transformer in CNN for Variable-Length Volumetric Radiographic Data Analysis in Biomedicine},
-  author={Owais, Muhammad and Zubair, Muhammad and Hassan, Taimur and others},
-  journal={CSBJ},
+  title={Synergistic Fusion of a Multilevel Visual Transformer in CNN for Variable-Length Volumetric Radiographic Data Analysis and Content-based Retrieval},
+  journal={Preprint},
   year={2024},
 }
 ```
