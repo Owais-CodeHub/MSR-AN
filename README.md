@@ -1,6 +1,6 @@
-# Synergistic Fusion of a Multilevel Visual Transformer in CNN for Variable-Length Volumetric Radiographic Data Analysis in Biomedicine
+# Synergistic Fusion of a Multilevel Visual Transformer in CNN for Variable-Length Volumetric Radiographic Data Analysis and Content-based Retrieval
 
-**Authors**: Muhammad Owais, Muhammad Zubair, Taimur Hassan, Anabia Sohail, Divya Velayudhan, Naoufel Werghi, and Irfan Hussain
+**Authors**: Muhammad Owais, Muhammad Zubair, Taimur Hassan, Divya Velayudhan, Naoufel Werghi, and Irfan Hussain
 
 ---
 
