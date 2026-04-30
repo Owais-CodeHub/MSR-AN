@@ -14,7 +14,7 @@ This repository showcases the implementation of a novel deep learning framework 
 - Efficient integration of a lightweight vision transformer with a convolutional neural network (CNN).
 - Capability to analyze variable-length 3D inputs using single annotations.
 
-[Read the Demo](https://youtu.be/9CsqFhC5OD8?si=ILqqfgMfDyY9vl4H) | [View the Code](https://github.com/Owais-CodeHub/MSR-AN)
+[View the Demo](https://youtu.be/9CsqFhC5OD8?si=ILqqfgMfDyY9vl4H) | [View the Code](https://github.com/Owais-CodeHub/MSR-AN)
 
 
 ---
